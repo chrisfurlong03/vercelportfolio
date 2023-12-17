@@ -1,0 +1,111 @@
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+@tailwind components;
+@tailwind utilities;
+
+.link:hover {
+  font-style: italic;
+}
+
+.stickerDiv {
+  width: 470px;
+  height: 226px;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+.floatimg1 {
+  max-height: 125px;
+  display: inline-block;
+  margin-right: -45px;
+  border: 6px solid #e1fff0;
+  position: relative;
+  transform: rotateZ(-14deg);
+  outline: 0.5px solid black;
+  box-shadow: 2.5px 2.5px 0px black;
+  z-index: 1;
+}
+.floatimg1:hover {
+  filter: brightness(80%);
+}
+.floatimg2 {
+  max-height: 225px;
+  display: inline-block;
+  border: 6px solid #ffd415;
+  transform: rotateZ(14deg);
+  outline: 0.5px solid black;
+  position: relative;
+  box-shadow: 2.5px 2.5px 0px black;
+  z-index: 0;
+}
+.floatimg2:hover {
+  filter: brightness(80%);
+}
+.floatimg2:active {
+  z-index: 2;
+  filter: brightness(100%);
+}
+.floatemoji {
+  line-height: 20px;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: 93px;
+  margin-top: -76px;
+  padding-top: 43px;
+  font-size: 101px;
+  position: relative;
+  transform: rotateZ(20deg);
+  text-shadow: 3px 4px 0px red;
+  position: relative;
+}
+.stickers {
+  max-height: 120px;
+  max-width: 120px;
+  display: block;
+  margin-left: 3px;
+  margin-bottom: -106px;
+  padding-top: 43px;
+  z-index: 3;
+  position: relative;
+  transform: rotateZ(-5deg);
+}
+.floatdrawing {
+  max-height: 75px;
+  display: block;
+  position: relative;
+  margin-left: -27px;
+  margin-bottom: -170px;
+  transform: rotateZ(21deg);
+  z-index: 4;
+}
+.floatdrawing:hover {
+  transform: rotateZ(26deg);
+}
+
+@keyframes sprite {
+  to {
+    background-position: -20736px;
+  }
+}
+
+.sticker {
+  margin-right: -510px;
+  z-index: 3;
+  position: relative;
+  height: 324px;
+  width: 576px;
+  background: url("https://imgur.com/JWUFDtu.png");
+  animation: sprite 2s steps(36) infinite;
+  transform: translate(-25%, -25%) scale(0.22);
+}
+.sticker:hover {
+  animation: sprite 0.5s steps(36) infinite;
+}
+
+@media only screen and (min-width: 1024px) {
+  .terminal {
+    transform: scale(1);
+  }
+}
