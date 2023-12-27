@@ -23,24 +23,127 @@ function _01_09_2022() {
       </Head>
       <div class="container max-w-[85%] md:max-w-[70%] ml-6 md:ml-40 xl:ml-60 mt-20">
         <Nav />
+        <btn
+            className={"aeroBtn place-items-center"}
+            style={{
+              width: 75,
+              height: 75,
+
+              position: "absolute",
+              borderRadius: 9999,
+              color: "white",
+              fontSize: 18,
+              fontStyle: "italic",
+              fontWeight: "700",
+            }}
+          >
+            <span className={"relative top-[24px] left-[15px]"}>Back</span>
+            <div
+            style={{
+              width: 47,
+              height: 49,
+              bottom: 35,
+              right: -1,
+              position: "absolute",
+            }}
+            className={"rotate-180"}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="47"
+              height="49"
+              viewBox="0 0 47 49"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_16_34)">
+                <g filter="url(#filter0_ii_16_34)">
+                  <path
+                    d="M26.4574 23.9117L25.0004 14.2125C24.9469 13.8485 25.0446 13.4644 25.3003 13.1656C25.7628 12.6254 26.5693 12.568 27.0995 13.0392L46.564 30.3153L46.7079 30.4676C47.1562 31.0192 47.0801 31.8391 46.5387 32.295L27.0741 48.7052C26.793 48.9361 26.4198 49.0491 26.0373 48.9801C25.3473 48.8537 24.8876 48.1794 25.0117 47.4774L26.4631 39.2569C24.773 39.0568 22.9296 38.6277 21.0327 37.9774C16.0827 36.2831 10.6965 33.0535 6.62062 28.3682C2.50436 23.6368 -0.283679 17.4296 0.023701 9.82495C0.133681 7.05511 0.658201 4.10329 1.68092 0.980031C1.80688 0.474333 2.228 0.0749469 2.76662 0.00981913C3.46598 -0.0744638 4.10048 0.435065 4.18226 1.14668C5.30368 10.732 8.93208 16.2898 13.4178 19.5165C17.4269 22.4013 22.1776 23.4769 26.4574 23.9117Z"
+                    fill="#D40000"
+                  />
+                </g>
+              </g>
+              <defs>
+                <filter
+                  id="filter0_ii_16_34"
+                  x="-1.99941"
+                  y="-1.9993"
+                  width="50.9995"
+                  height="52.9995"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dx="-2" dy="-2" />
+                  <feGaussianBlur stdDeviation="2" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="shape"
+                    result="effect1_innerShadow_16_34"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dx="2" dy="2" />
+                  <feGaussianBlur stdDeviation="2" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect1_innerShadow_16_34"
+                    result="effect2_innerShadow_16_34"
+                  />
+                </filter>
+                <clipPath id="clip0_16_34">
+                  <rect width="47" height="49" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          </btn>
         <div class="grid-cols-1 mt-8 md:max-w-xl xl:max-w-2xl">
           <h2 id="headLine" class="font-display text-4xl">
             Making Pride @ Kristin School
           </h2>
           <p id="subTitle" class="font-serif text-gray-600 mt-2 italic">
-            We, the Pride Team, set out to create a positve LGBT movement at
-            Kristin. While efforts to create safe spaces for LGBT students
-            continued in the background, we wanted to create some noise in the
-            wider community to expose LGBT issues at Kristin.
+            
           </p>
           <p class="mt-5">
             {" "}
-            It a 6th period physics class, near the end of 2020, and after the
-            IB had just finished dragging us through the mud to the end of Year
-            1. I was sitiing next to my two fav besties. There had been some
-            discussion over the past couple of days about the state of LGBT
-            affairs at Kristin. At the time, the school lacked good LGBT policy
-            and our safe spaces were under threat (more on that later).{" "}
+            What do I know?{" "}
           </p>
           <div class="mt-8 relative inline-block after:content-[''] after:absolute after:left-12 after:top-32 md:after:left-20 md:after:top-24 after:border-2 after:border-solid after:border-purple-200 after:w-[80%] after:h-full after:-z-10 after:bg-purple-200">
             <img
@@ -49,8 +152,7 @@ function _01_09_2022() {
             ></img>
           </div>
           <p class="italic h-32 md:h-24 pl-14 md:pl-24 max-w-[85%] md:max-w-[85%]">
-            Sets was my partner in crime. They pushed this project forward and
-            did the hard work when it was needed.
+            Sets pushed this project forward and did the hard work when it was needed.
           </p>
 
           <p class="mt-5">
