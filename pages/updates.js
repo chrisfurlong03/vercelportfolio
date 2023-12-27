@@ -315,8 +315,8 @@ function Home() {
             <br />
             that has just entered the atmosphere...
           </div>
-          <div
-            className={"aeroBtn"}
+          <btn
+            className={"aeroBtn place-items-center"}
             style={{
               width: 75,
               height: 75,
@@ -324,30 +324,19 @@ function Home() {
               top: 488,
               position: "absolute",
               borderRadius: 9999,
-            }}
-          >
-            Read
-          </div>
-          <div
-            style={{
-              left: 756,
-              top: 510,
-              position: "absolute",
               color: "white",
               fontSize: 18,
               fontStyle: "italic",
               fontWeight: "700",
-              wordWrap: "break-word",
             }}
           >
-            ?
-          </div>
-          <div
+            <span className={"relative top-[22px] left-[15px]"}>Read</span>
+            <div
             style={{
               width: 47,
               height: 49,
-              left: 739,
-              top: 521,
+              top: 33,
+              left: -2,
               position: "absolute",
             }}
           >
@@ -436,6 +425,8 @@ function Home() {
               </defs>
             </svg>
           </div>
+          </btn>
+          
           <div
             style={{
               width: 214.31,
